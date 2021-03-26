@@ -23,13 +23,10 @@ export class CategoriasPage {
 
   ionViewDidLoad() {
     this.CategoriaService.findAll()
-    .subscribe(response=>{
+    .subscribe(response =>{
       this.items= response;
     },
-    error=>{
-      console.log(error);
-
-    });
+    error => {});
 
    
     
