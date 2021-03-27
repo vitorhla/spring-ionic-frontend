@@ -20,4 +20,9 @@ return this.http.post(
     });
 
 }
+  successfulLogin(authorizationValue: string){
+    let tok = authorizationValue.substring(7);
+
+}
+
 }
