@@ -52,5 +52,7 @@ ionViewWillEnter() {
     error => {}); 
     
   }
-  
+  signup(){
+    this.navCtrl.push('SignupPage')
+  }
 }
