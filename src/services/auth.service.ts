@@ -16,7 +16,7 @@ constructor(public http: HttpClient, public storage: StorageService){
 
 authenticate(creds: CredenciaisDTO){
 return this.http.post(
-  `${API_CONFIG.baseURL}/login`,
+  `${API_CONFIG.baseUrl}/login`,
     creds,
     {
         observe:'response',

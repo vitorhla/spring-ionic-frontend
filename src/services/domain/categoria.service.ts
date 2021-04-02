@@ -12,7 +12,7 @@ constructor(public http: HttpClient){
 }
 
 findAll() : Observable< CategoriaDTO[]> {
-return this.http.get<CategoriaDTO[]>(`${API_CONFIG.baseURL}/categorias`);
+return this.http.get<CategoriaDTO[]>(`${API_CONFIG.baseUrl}/categorias`);
 
 
 }
