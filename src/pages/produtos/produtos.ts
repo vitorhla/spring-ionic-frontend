@@ -35,4 +35,7 @@ ionViewDidLoad() {
       error=>{});
     }
   }
+  showDetail() {
+    this.navCtrl.push('ProdutoDetailPage');
+  }
 }
