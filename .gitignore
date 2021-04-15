@@ -9,6 +9,8 @@
 *.sublime-project
 *.sublime-workspace
 .DS_Store
+.vscod/
+.vs/
 Thumbs.db
 UserInterfaceState.xcuserstate
 $RECYCLE.BIN/
